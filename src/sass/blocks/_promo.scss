@@ -1,8 +1,19 @@
 .promo {
+    position: relative;
     min-height: 1170px;
+    &__img {
+        margin-top: 104px;
+    }
+    &__image {
+        max-width: 100%;
+    }
     &__wrapper {
+        display: flex;
+        justify-content: space-between;
+    }
+    &__content {
         margin-top: 135px;
-        width: 531px;
+        max-width: 531px;
     }
     &__header {
         font-weight: bold;
@@ -12,6 +23,7 @@
         color: $main-color;
     }
     &__subheader {
+        max-width: 440px ;
         margin-top: 19px;
         font-weight: 600;
         font-size: 18px;
