@@ -1,0 +1,52 @@
+.promo {
+    min-height: 1170px;
+    &__wrapper {
+        margin-top: 135px;
+        width: 531px;
+    }
+    &__header {
+        font-weight: bold;
+        font-size: 44px;
+        line-height: 50px;
+        letter-spacing: 1px;
+        color: $main-color;
+    }
+    &__subheader {
+        margin-top: 19px;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 22px;
+        color: $description-color;
+    }
+    &__buttons {
+        margin-top: 40px;
+    }
+    &__item {
+        display: flex;
+        margin-top: 60px;
+    }
+    &__video {
+        width: 140px;
+        height: 80px;
+        border-radius: 4px;
+    }
+    &__text{
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 22px;
+        margin-left: 20px;
+        color: $description-color;
+    }
+    &__descr {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+    }
+    &__link-prewiew {
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 22px;
+        color: #6D6D78;
+        margin-top: 6px;
+    }
+}

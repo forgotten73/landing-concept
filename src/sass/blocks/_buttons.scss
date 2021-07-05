@@ -1,0 +1,27 @@
+.button {
+    width: 112px;
+    height: 36px;
+    background: none;
+    border: 1px solid $second-color;
+    color: $second-color;
+    border-radius: 3px;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    &:hover {
+        background-color: $second-color;
+        box-shadow: -11.09px 18.13px 36.6483px rgba(242, 153, 74, 0.3);
+        color: #FFFFFF;
+    }
+    &_ml20 {
+        margin-left: 20px;
+    }
+    &_promo {
+        width: 157px;
+        height: 46px;
+    }
+    
+}

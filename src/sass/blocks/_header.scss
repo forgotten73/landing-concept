@@ -1,0 +1,32 @@
+.header {
+    margin-top: 79px;
+    height: 36px;
+    &__navigation {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    &__menu {
+        display: flex;
+        justify-content: start;
+        margin-left: 44px;
+        flex-grow: 1;
+        
+    }
+    &__items {
+        margin-left: 22px;
+        &:first-child {
+            margin-left: 0;
+        }
+    }
+    
+    &__links {
+        font-size: 12px;
+        line-height: 20px;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        color: #B5B5B5;
+        
+    }
+}
